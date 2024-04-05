@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#modalDiv{  
+    margin: 0 auto;  
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3%;
+    width: 400px;
+    height: 150px;
+    display: none;
+}
+
+#launchModal{
+    margin: 15px auto;
+    display: flex;
+    align-self: center;
+    background-color: rgb(159, 180, 164);
+}
+
+.divTop{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+#xbutton{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#wohoo{
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.divBottom{
+    padding: 5px 15px;;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 3px;
+    margin-top: 50px;
+}
+
+#btnClose{
+    background-color: rgb(138, 120, 120);
+    color: white;
+}
+
+#btnSave{
+    background-color: rgb(40, 29, 166);
+    color: white;
+}
