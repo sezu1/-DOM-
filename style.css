@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
-#modalDiv{  
+
+.modalDivOpen{   
+    display:none; 
+}
+
+.modalDivClosed{  
     margin: 0 auto;  
     background-color: white;
     border: 1px solid black;
     border-radius: 3%;
     width: 400px;
     height: 150px;
-    display: none;
+    display: block;
 }
+
 
 #launchModal{
     margin: 15px auto;
